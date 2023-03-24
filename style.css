@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+/* header */
+nav{
+    border: 1px solid blue;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    background-color: rgb(3, 3, 86);
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.nav-item{
+    font-weight: bold;
+}
+/* home section */
+.head-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-heading{
+    background-color: teal;
+    padding: 0 0.3rem;
+    border-radius: 1rem;
+}
+.head-content p {
+    color: gray;
+    font-weight: bold;
+}
+.heading-text{
+    font-size: 3em;
+}
+.icon{
+    width: 4rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+}
+#Explore .col-lg-8{
+    padding-left: 15rem;
+}
+#Explore .col-lg-8 .firstCard{
+    margin-left: 2rem;
+}
+#Explore .col-lg-8 .card{
+    border: 2px solid white;
+    background-color: darkblue;
+}
+
+/* section 2  */
+
+#howItWorks .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#howItWorks .btn{
+    margin-top: 2rem;
+}
+.card-div{
+    background-color: rgb(115, 115, 115);
+    border-left: 4px solid blue;
+}
+.card-div span{
+    margin-left: 1rem;
+}
+/* footer */
+footer .row{
+    text-align: center;
+    margin: 1rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 1rem;
+    background-color: gray;
+}
+.card:hover{
+
+}
